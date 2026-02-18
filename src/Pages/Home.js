@@ -11,6 +11,14 @@ const Home = () => {
       <Button href="/Characters" variant="primary" size="lg" className="mt-3">
         View Characters
       </Button>
+      <br/>
+      <Button href="/Starships" variant="primary" size="lg" className="mt-3">
+        View Starships
+      </Button>
+      <br/>
+      <Button href="/Planets" variant="primary" size="lg" className="mt-3">
+        View Planets
+      </Button>
     </Container>
   );
 };
